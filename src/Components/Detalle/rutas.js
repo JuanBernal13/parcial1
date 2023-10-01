@@ -8,8 +8,7 @@ function Rutas() {
           return (
             <Container className="mt-3">
                 <Routes>
-                    <Route path="/Listado" element={<Cafe />} /> 
-                    <Route path="/" element={<Detalle />} />
+                    <Route path="/Listado" element={<Detalle />} /> 
                 </Routes>
             </Container>
         );

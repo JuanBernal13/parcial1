@@ -9,6 +9,8 @@ import Nav from "react-bootstrap/Nav";
 import Detalle from './Components/Detalle/detalle';
 import Rutas from './Components/Detalle/rutas';
 import { Link } from 'react-router-dom';
+import { Login } from './Components/Detalle/login';
+
 
 function App() {
   const [formValues, setFormValues] = useState({ email: "asasas", password: "", favClass: "1" });

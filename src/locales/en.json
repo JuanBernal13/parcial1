@@ -1,0 +1,13 @@
+{
+    "table.header.number": "#",
+    "table.header.name": "Name",
+    "table.header.type": "Type",
+    "table.header.region": "Region",
+    "detail.cultivationDate": "Cultivation Date",
+    "detail.notes": "Notes",
+    "detail.height": "Cultivated at a height of",
+    "detail.meters": "m",
+    "cultivo.fecha": "Cultivation Date",
+    "notas": "Notes",
+    "cultivo.altura": "Cultivated at an altitude of"
+  }
