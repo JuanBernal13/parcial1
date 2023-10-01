@@ -1,13 +1,10 @@
-// Componente Cafe.js
 import React from "react";
 
-const Cafe = (props) => {
+const Cafe = ({ cafe, onCafeClick }) => { 
 
   const onclick = () => {
-    console.log("hola");
+    onCafeClick(cafe.id);
   }
-  
-  const { cafe } = props; // Accediendo a la prop 'cafe' que pasas desde Detalle
   
   return (
     <tr onClick={onclick}>
